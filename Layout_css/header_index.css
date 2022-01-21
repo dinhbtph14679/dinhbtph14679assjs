@@ -1,0 +1,248 @@
+*{margin: 0; padding: 0;}
+.container_header{
+    width: 100%;
+    margin: auto 0;
+    /* background-image: linear-gradient(to bottom right, #2b5363,#1d1f2f, #1d1f2f); */
+
+}
+.header_min{
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 375px;
+    color: rgb(255, 255, 255);
+}
+.ke{
+    background: #ffffff;
+    width:1px;
+    height: 20px;
+}
+.text_header_min{
+    padding: 10px 90px;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 300px 60px 320px;
+    
+    /* display: grid;
+    grid-template-columns: 1fr 610px;
+    margin: 10px 90px 0; */
+    font-family: Tahoma;
+    font-size: 12px;
+}
+.text_header_min a{
+    font-family: Tahoma;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.text_header_min a:hover{
+    color: #7ac142;
+}
+
+/*---------------------END HEADER MIN----------------------------*/
+menu{
+    margin-top: 40px;
+}
+menu ul li{
+    display: inline-block;
+
+}
+menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    font-size: 18px;
+    font-family: Tahoma;
+    
+}
+menu ul li a:hover{
+    color: #7ac142;
+}
+
+li a .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background:#fff;
+    /* background-image: linear-gradient(to bottom right, #2b5363,#1d1f2f, #1d1f2f); */
+    border-radius: 3px 50px 30px 30px;
+    margin: 0 20px 0;
+    width: 150px;
+    
+  }
+  
+  /* .dropdown-content a {
+    color: #ffffff;
+    padding: 5px 0;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+  }
+  
+  .dropdown-content a:hover {
+    color: #7ac142;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+
+/*--------------END MENU--------------*/
+.header_max{
+    display: grid;
+    grid-template-columns: 1fr 500px 500px;
+    margin: 15px 90px 0;
+}
+
+.search_cart{
+    padding: 0;
+    display: flex;
+    align-items: left;
+    margin: 35px 170px 0;
+
+}
+.search-container form{
+    background: #fff;
+    /* width: 250px; */
+    height: 35px;
+    border-radius: 30px;
+    padding: 0 10px;
+    /* margin-top: -10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.search-container:hover > .search-input{
+    width: 250px;
+}
+
+.search-container .search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    width: 250px;
+    /* font-weight: 500; */
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+.search-container .search-btn .fas{
+    color: #2b5363;
+}
+
+@keyframes hoverShake {
+  0% {transform: skew(0deg,0deg);}
+  25% {transform: skew(5deg, 5deg);}
+  75% {transform: skew(-5deg, -5deg);}
+  100% {transform: skew(0deg,0deg);}
+}
+
+.search-container:hover{
+  animation: hoverShake 0.15s linear 2.5;
+}
+.cart{
+    margin: 0px 20px 0;
+}
+#cart{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.login{
+    margin-top: 10px;
+}
+.login a{
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin: 10px 17px 0;
+}
+.dn_dk{
+    margin: 0 80px 0;
+}
+.nut_dn{
+    background:#1d1f2f;
+    border: 1px solid #1d1f2f;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    /* margin: 0 10px 0; */
+
+}
+.nut_dn a{
+    margin: 0 -20px 0;
+}
+.nut_dk{
+    background:#1d1f2f;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.nut_thoat{
+    background:#1d1f2f;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+}
+.nut_thoat a{
+    font-size: 12px;
+
+}
+.bt_to_ad{
+    background:#1d1f2f;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    width: 140px;
+    height: 25px;
+    border-radius: 15px;
+}
+.bt_to_ad a{
+    font-size: 12px;
+}
+.logout{
+    margin: 7px 70px 0;
+}
+.acc{
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+}
+.acc h3{
+    text-align: right;
+    margin: 0 20px 0;
+    font-family: Tahoma;
+    font-size: 16px;
+
+}
+.acc img{
+    margin-left: 30px;
+    width:35px;
+    height: 35px; 
+    margin: -5px -5px 0;
+    border-radius:20px;
+}

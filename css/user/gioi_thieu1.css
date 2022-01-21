@@ -1,0 +1,127 @@
+*{margin: 0; padding: 0;}
+
+
+
+
+body{
+    background-image: linear-gradient(to bottom right, #2b5363,#1d1f2f, #1d1f2f, #1d1f2f, #1d1f2f, #1d1f2f, #1d1f2f);
+    width: 100%;
+
+
+}
+.container{
+    width: auto;
+    margin: auto 0;
+    
+}
+main{
+    margin-top: 30px;
+
+}
+
+/*--------------------*/
+.main_content{
+    width: 1100px;
+    margin: 0 auto;
+    box-shadow: 15px 5px 15px 5px  #0303034b;
+    background: #ffffff1a;
+    border-radius: 30px;
+
+}
+
+.nguon_gt{
+
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.nguon_gt h2{
+    margin: 0 50px 0;
+    font-size: 15px;
+    color: #7ac142;
+}
+.nguon_gt a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #7ac142;
+}
+
+.tieude_gt{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Tahoma;
+}
+
+
+.banner_gt {
+    text-align: center;
+    margin-top: 15px;
+}
+.text_gt{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1000px;
+    color: rgb(255, 255, 255);
+    font-family: Tahoma;
+    line-height: 25px;
+}
+.gt_duoi{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* background:#7ac142; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text_gt2{
+    /* margin: 0 auto; */
+    margin-top: 10px;
+    width: 460px;
+    color: rgb(255, 255, 255);
+    font-family: Tahoma;
+    line-height: 25px;
+}
+.gt_admin{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.admin{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    font-family: Tahoma;
+    margin-top:30px;
+}
+.admin img{
+    border-radius: 100%;
+}
+.text_admin{
+    margin-top: 50px;
+}
+.text_admin h2{
+    color: rgb(255, 255, 255);
+}
+.text_admin p{
+    color: rgba(255, 255, 255, 0.795);
+    margin-top:10px;
+    line-height: 30px;
+    
+}
+.text_admin a{
+    color: #7ac142;
+    margin-top:10px;
+    line-height: 30px;
+    
+}
+.text_admin hr{
+    height: 0.5px;
+    color: #ffffff83;
+    border: 0.1px solid #ffffff83;
+
+}
+/*--------------------*/
+
+footer{
+    margin-top: 70px;
+}

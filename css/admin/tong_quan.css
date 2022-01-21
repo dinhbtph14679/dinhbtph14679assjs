@@ -1,0 +1,105 @@
+*{margin: 0; padding: 0;}
+
+.body{
+    width: 100%;
+    background: #00000025;
+
+
+}
+.container_admin{
+    background: #00000025;
+    /* background-image: linear-gradient(to bottom right, #2b5363,#1d1f2f, #1d1f2f, #1d1f2f, #1d1f2f, #1d1f2f, #1d1f2f); */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.menu{
+    width: 10px;
+}
+.content{
+    color: rgb(0, 0, 0);
+    margin: 0 20px 0;
+    
+}
+header{
+    text-align: right;
+}
+header h1{
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #7ac142;
+
+}
+.name_user{
+    margin: -50px 20px 0;
+}
+#icon_name_user{
+    color: #000;
+    font-size: 25px;
+
+}
+span{
+    font-size: 16px;
+
+}
+
+/*---------------------------------*/
+.all_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+.box{
+    width: 500px;
+    margin-top: 30px;
+}
+.box h3{
+    font-size: 20px;
+    
+}
+.box a{
+    color: #000;
+    text-decoration: none;
+}
+.box a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.box_admin{
+    background: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    width:500px;
+    height: 300px;
+    box-shadow: 1px 10px 10px 5px #00000023;
+    border:10px solid #ffffff;
+    overflow-x:hidden;
+    overflow-y:auto;
+
+}
+.box_admin hr{
+    margin-top: -10px;
+}
+.tieude_admin{
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr;
+    text-align: center;
+}
+
+.content_admin{
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr;
+}
+#ten{
+    width: 200px;
+    /* background: rgb(255, 0, 0); */
+}
+
+
+
+
+
+
+footer{
+    height: 50px;
+}

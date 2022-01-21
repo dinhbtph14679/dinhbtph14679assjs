@@ -1,0 +1,50 @@
+
+/* .nav-item{
+    background-color: rgb(6, 173, 0) !important
+} */
+body{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+li:hover {
+    background-color: #ffffff38 !important
+}
+
+.nav-link_tp span{
+    color: rgb(255, 255, 255);
+}
+ion-icon{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.ms-2{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover .fa {
+    transform: rotate(360deg)
+    
+}
+
+#menu_layout{
+    position: sticky;
+    top: 0;
+    
+}
+
+.ve_home{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+.icon_home{
+    margin: 0 85px 0;
+    font-size: 30px;
+}
+.ve_home:hover{
+    color: rgb(6, 173, 0);
+}
+
+
+
+
